@@ -92,7 +92,7 @@ toolBtns.forEach(btn => {
     });
 });
 
-sizeSlider.addEventListener("change", () => brushWidth = sizeSlider.value); // passing slider value as brushSize
+sizeSlider.addEventListener("change", () => brushWidth = sizeSlider.value); 
 
 colorBtns.forEach(btn => {
     btn.addEventListener("click", () => { 
