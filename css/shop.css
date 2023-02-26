@@ -51,7 +51,8 @@ font-weight: 700;
   align-items: center;
   text-align: center;
  width: 80%;
-
+  aspect-ratio: 1/1;
+ flex-grow: 1;
 }
 .shop3{
   background-color: black;
@@ -102,6 +103,11 @@ height: 230px;
 
 .lefths{
   background-color: black;
+}
+@media (max-width:850px) {
+  .sh img{
+display: none;
+  }
 }
 
 .button-85 {
