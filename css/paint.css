@@ -111,6 +111,25 @@ margin-top: 50px;
   padding: 10px;
   max-width: 1050px;
 }
+
+@media (max-width:800px) {
+  .container1{
+    display: none;
+  }
+  
+}
+@media (min-width:800px) {
+  .warning{
+     display: none;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+  }
+  .warning h1{
+    text-align: center;
+  }
+ 
+}
 section{
   background: #fff;
 
